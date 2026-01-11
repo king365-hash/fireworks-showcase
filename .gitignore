@@ -1,0 +1,41 @@
+# 文件和目录将被自动忽略
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.log
+*.tmp
+*.temp
+
+# 构建文件
+dist/
+build/
+*.min.js
+*.min.css
+
+# 依赖文件
+node_modules/
+bower_components/
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 备份文件
+*.bak
+*.backup
+
+# 测试覆盖率
+coverage/
+.nyc_output/
